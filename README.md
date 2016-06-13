@@ -60,6 +60,14 @@ The config file and the variables are explained in the file.
 - Setup wizard via /ffa setup
 - Feel free to contact me for suggestions! :)
 
+## Contribute
+- Download / clone the repository
+- Setup the workspace
+  - Execute the command "gradlew.bat setupWorkspace"
+  - Execute the command "gradlew.bat idea" (for IntelliJ IDEA workspace setup)
+  - Execute the command "gradlew.bat build"
+    - See [This GitHub Repo](https://github.com/ReneHollander/empty-spigot-plugin) for more commands and help
+
 # License
 The MIT License (MIT)
 

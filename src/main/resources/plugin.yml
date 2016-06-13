@@ -1,6 +1,6 @@
 name: FreeForAll
 version: @version@-@apitype@-@apiversion@
-description: The New Free For All Plugin For SpexMC
+description: A simple to use and lightweight Free For All plugin
 authors: [Paul Vogel, Cuvthe3rdPlays]
 website: https://github.com/pavog/ffa
 
