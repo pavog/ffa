@@ -1,0 +1,60 @@
+prefix: '&f[&b&lFFA&f] &6'
+nopermission: '&c&lYou don''t have permission'
+join: '&a&lYou joined the FFA'
+quit: '&c&lYou left the FFA'
+alreadyin: '&c&lYou are already in the FFA'
+notin: '&c&lYou are not in the FFA'
+noinventory: '&c&lYou do not have a saved inventory'
+setkit: '&c&lPlease set a kit%num% with &r&7&l/ffa set kit%num%'
+unknowncommand: '&c&lThis command could not be found. Please try /ffa help.'
+notsetup: '&c&lPlease use the setup wizard via /ffa setup!'
+noplayer: '&c&lOnly players can execute this command.'
+commands:
+  help:
+    - "&6========== &f[&b&lFFA COMMANDS&f] &6=========="
+    - "&b/ffa join &f&oJoin the game"
+    - "&b/ffa leave &f&oLeave the game"
+    - "&b/ffa help &f&oDisplay this help message"
+    - "&b/ffa set &f&oSet game options"
+    - "&b/ffa setup &f&oSetup the game"
+    - "&b/ffa info &f&oPlugin information"
+    - "&6========== &f[&b&lFFA COMMANDS&f] &6=========="
+  join:
+    onlyonline: '&c&lThe player is offline. Only online players can join FFA!'
+  quit:
+    onlyonline: '&c&lThe player is offline. Only online players can quit FFA!'
+  set:
+    help:
+      - "&6========== &f[&b&lFFA SETCOMMAND&f] &6=========="
+      - "&b/ffa set join &f&oSet the join location / spawn"
+      - "&b/ffa set leave &f&oSet the leave location"
+      - "&b/ffa set joininv &f&oSet the default (join) inventory for FFA"
+      - "&b/ffa set leaveinv &f&oSet the leave inventory for FFA"
+      - "&b/ffa set kit1 &f&oSet kit1"
+      - "&b/ffa set kit2 &f&oSet kit2"
+      - "&b/ffa set kit3 &f&oSet kit3"
+      - "&b/ffa set kit4 &f&oSet kit4"
+      - "&6========== &f[&b&lFFA SETCOMMAND&f] &6=========="
+    join: "&6&lJoin location set"
+    leave: "&6&lLeave location set"
+    joininv: "&c&lJoin inventory set"
+    leaveinv: "&c&lLeave inventory set"
+    kit1: "&c&lKit1 set to current inventory"
+    kit2: "&c&lKit2 set to current inventory"
+    kit3: "&c&lKit3 set to current inventory"
+    kit4: "&c&lKit4 set to current inventory"
+  setup:
+    help:
+      - "&6========== &f[&b&lFFA SETUPCOMMAND&f] &6=========="
+      - " &b*      &f&lSetup Helper      &r&b* "
+      - " &7Set your FFA spawn by using &r&b/ffa set join "
+      - " &7Set your FFA endpoint (when the player leaves) by using &r&b/ffa set leave "
+      - " &7Set your own inventory to how you would like the inventory of a player to be when in the FFA, using &r&b/ffa set joininv "
+      - " &7Set your own inventory to how you would like the inventory of a player to be when they leave the FFA, using &r&b/ffa set leaveinv "
+      - " &7Set your FFA kit1 by using &r&b/ffa set kit1 "
+      - " &7Set your FFA kit2 by using &r&b/ffa set kit2 "
+      - " &7Set your FFA kit3 by using &r&b/ffa set kit3 "
+      - " &7Set your FFA kit4 by using &r&b/ffa set kit4 "
+      - "    "
+      - " &b* &r&fSoon this will be the Setup Wizard to automatically setup your FFA game environment &r&b* "
+      - "&6========== &f[&b&lFFA SETUPCOMMAND&f] &6=========="

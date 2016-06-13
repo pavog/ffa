@@ -1,0 +1,12 @@
+name: FreeForAll
+version: @version@-@apitype@-@apiversion@
+description: The New Free For All Plugin For SpexMC
+authors: [Paul Vogel, Cuvthe3rdPlays]
+website: https://github.com/pavog/ffa
+
+main: me.paulvogel.ffa.FreeForAll
+
+commands:
+  ffa:
+    description: The main ffa command with all sub commands.
+    usage: /<command> <subcommand>

@@ -1,0 +1,66 @@
+########################################
+#              FreeForAll Version 1.0
+########################################
+
+########################################
+#                  Kits
+########################################
+
+kits:
+  enabled: false
+  menuprefix: '&8Kit Menu'
+  openmessage: '&a&lOpen kit menu &r&7(right click)'
+  list:
+    kit1:
+      iconSlotID: 10
+      descSlotID: 19
+      iconID: 268
+      iconName: '&a&lSelect Tank Kit'
+      descID: 311
+      descName: '&a&lTank Kit'
+      descLore:
+          - '&6&lIncludes:'
+          - '&7Wooden Sword'
+          - '&bDiamond Helmet'
+          - '&bDiamond ChestPlate'
+          - '&bDiamond Leggings'
+          - '&bDiamond Boots'
+    kit2:
+      iconSlotID: 12
+      descSlotID: 21
+      iconID: 267
+      iconName: '&a&lSelect Knight Kit'
+      descID: 299
+      descName: '&a&lKnight Kit'
+      descLore:
+          - '&6&lIncludes:'
+          - '&7Iron Sword'
+          - '&bLeather Helmet'
+          - '&bLeather ChestPlate'
+          - '&bLeather Leggings'
+          - '&bLeather Boots'
+    kit3:
+      iconSlotID: 14
+      descSlotID: 23
+      iconID: 261
+      iconName: '&a&lSelect Archer Kit'
+      descID: 303
+      descName: '&a&lArcher Kit'
+      descLore:
+          - '&6&lIncludes:'
+          - '&7Bow &5&o- Infinity I'
+          - '&bChainMail Helmet'
+          - '&bChainMail ChestPlate'
+          - '&bChainMail Leggings'
+          - '&bChainMail Boots'
+    kit4:
+      iconSlotID: 16
+      descSlotID: 25
+      iconID: 276
+      iconName: '&a&lSelect Rouge Kit'
+      descID: 295
+      descName: '&a&lRouge Kit'
+      descLore:
+          - '&6&lIncludes:'
+          - '&7Diamond Sword &5&o- KnockBack II'
+          - '&7Seeds &5&o- Sharpness IV'
