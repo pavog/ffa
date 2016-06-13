@@ -5,11 +5,12 @@ This plugin is where all payers that join are against all other players that hav
 This plugin is a new version of the FFA plugin by Cuvthe3rdPlays [Bukkitlink](http://dev.bukkit.org/bukkit-plugins/freeforallgametype/)
 
 # Features
-- Configure the main command /<command> (e.g. /help)
-- Configure the command aliases
-- Configure the permission for the command
-- Configure the command description (used in command lists)
-- Configure the command usage (used in command lists)
+- UUID support
+- Changeable messages
+- Permissions
+- Changeable join / leave positions
+- Disables world editing whilst in-game
+- Easy setup
 
 # Usage
 
