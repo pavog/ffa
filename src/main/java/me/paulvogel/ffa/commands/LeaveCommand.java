@@ -55,7 +55,7 @@ public class LeaveCommand {
                     player.teleport(loc2);
                     player.sendMessage(FileHandler.getPrefixedMessage("quit"));
                     player.setGameMode(GameMode.ADVENTURE);
-                    Game.getIngameList().remove(player.getName());
+                    Game.getIngameList().remove(player.getUniqueId());
                 } else
                     player.sendMessage(FileHandler.getPrefixedMessage("notin"));
             } else
